@@ -22,7 +22,7 @@ void AppUI::ShowVideoLoop() {
     _running = true;
 
     cv::namedWindow("ZingPad", cv::WINDOW_NORMAL);
-    cv::setWindowProperty("ZingPad", cv::WND_PROP_FULLSCREEN, cv::WINDOW_FULLSCREEN);
+    cv::setWindowProperty("ZingPad", cv::WND_PROP_FULLSCREEN, cv::WINDOW_NORMAL);
 
     while (_running) {
         _capture >> _frame;
