@@ -1,0 +1,29 @@
+
+# ========================
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ========================
+ZingPad
+*.exe
+*.out
+*.a
+*.o
+*.obj
+*.lib
+*.dll
+*.so
+*.dylib
+
+# ========================
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# ========================
+vcpkg/
