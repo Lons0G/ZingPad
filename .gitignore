@@ -6,6 +6,8 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 
+estructura.txt
+
 # ========================
 ZingPad
 *.exe
@@ -27,3 +29,7 @@ Thumbs.db
 
 # ========================
 vcpkg/
+
+
+.cache/
+compile_commands.json
