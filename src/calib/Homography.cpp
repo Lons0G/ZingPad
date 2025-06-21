@@ -5,7 +5,7 @@
 #include <opencv2/opencv.hpp>
 
 bool Homography::overleayImageOnQuad(cv::Mat &frame, const cv::Mat &overlay,
-                                     const std::vector<cv::Point2d> &quad) {
+                                     const std::vector<cv::Point2f> &quad) {
     // PUNTOS DEL MARCADOR
     std::vector<cv::Point2d> srcpoints = {
         {0, 0},

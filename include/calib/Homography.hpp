@@ -9,7 +9,7 @@
 class Homography {
    public:
     static bool overleayImageOnQuad(cv::Mat &frame, const cv::Mat &overlay,
-                                    const std::vector<cv::Point2d> &quad);
+                                    const std::vector<cv::Point2f> &quad);
 };
 
 #endif
