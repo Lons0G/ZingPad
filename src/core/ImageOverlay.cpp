@@ -26,5 +26,5 @@ bool ImageOverlay::overlay(cv::Mat &frame, const std::vector<cv::Point2f> &quad)
         return false;
     }
 
-    return Homography::overleayImageOnQuad(frame, _image, quad);
+    return Homography::overlayImageOnQuad(frame, _image, quad);
 }

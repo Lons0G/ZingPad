@@ -8,8 +8,8 @@
 // CLASE HOMOGRAFIA
 class Homography {
    public:
-    static bool overleayImageOnQuad(cv::Mat &frame, const cv::Mat &overlay,
-                                    const std::vector<cv::Point2f> &quad);
+    static bool overlayImageOnQuad(cv::Mat &frame, const cv::Mat &overlay,
+                                   const std::vector<cv::Point2f> &quad);
 };
 
 #endif
